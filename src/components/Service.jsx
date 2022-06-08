@@ -4,9 +4,9 @@ const Service = () => {
   return (
     <div>
         <section id='service'>
-            <div className='container'>
+            <div className='container mb-5 pb-5'>
                 <div className='row'>
-                    <div className='col-12 my-5 py-5'>
+                    <div className='col-12 my-5'>
                         <h3 className='fs-5 text-center mb-0'> Our Service </h3>
                         <h1 className='display-6 text-center mb-4'> Our <b>awesome</b> Service </h1>
                         <hr className='w-25 mx-auto'/>

@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Login from './components/Login';
 import Register from './components/Register';
+import Dashboard from './components/Dashboard';
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
         <Route exact path="/contact" element={ <Contact/> } />
         <Route exact path="/login" element={ <Login/> } />
         <Route exact path="/register" element={ <Register/> } />
+        <Route exact path="/dashboard" element={ <Dashboard/> } />
       </Routes>
       <Footer/>
       

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -15,16 +16,16 @@ const Footer = () => {
                             <h5> Section </h5>
                             <ul className='nav flex-column'>
                                 <li className='nav-item mb-2'>
-                                    <a to='#' className='nav-link p-0 text-white'> Home </a>
+                                    <NavLink to='/home' className='nav-link p-0 text-white'> Inicio </NavLink>
                                 </li>
                                 <li className='nav-item mb-2'>
-                                    <a to='#' className='nav-link p-0 text-white'> Feactures </a>
+                                    <NavLink to='/service' className='nav-link p-0 text-white'> Servicios </NavLink>
                                 </li>
                                 <li className='nav-item mb-2'>
-                                    <a to='#' className='nav-link p-0 text-white'> About </a>
+                                    <NavLink to='/about' className='nav-link p-0 text-white'> Nosotros </NavLink>
                                 </li>
                                 <li className='nav-item mb-2'>
-                                    <a to='#' className='nav-link p-0 text-white'> FAQs </a>
+                                    <NavLink to='#' className='nav-link p-0 text-white'> FAQs </NavLink>
                                 </li>
                             </ul>
                         </div>
@@ -33,16 +34,16 @@ const Footer = () => {
                             <h5> Section </h5>
                             <ul className='nav flex-column'>
                                 <li className='nav-item mb-2'>
-                                    <a to='#' className='nav-link p-0 text-white'> Home </a>
+                                    <NavLink to='#' className='nav-link p-0 text-white'> Home </NavLink>
                                 </li>
                                 <li className='nav-item mb-2'>
-                                    <a to='#' className='nav-link p-0 text-white'> Feactures </a>
+                                    <NavLink to='#' className='nav-link p-0 text-white'> Feactures </NavLink>
                                 </li>
                                 <li className='nav-item mb-2'>
-                                    <a to='#' className='nav-link p-0 text-white'> About </a>
+                                    <NavLink to='#' className='nav-link p-0 text-white'> About </NavLink>
                                 </li>
                                 <li className='nav-item mb-2'>
-                                    <a to='#' className='nav-link p-0 text-white'> FAQs </a>
+                                    <NavLink to='#' className='nav-link p-0 text-white'> FAQs </NavLink>
                                 </li>
                             </ul>
                         </div>
@@ -69,13 +70,16 @@ const Footer = () => {
                         <p> 2022 Company, Inc. all rigths reserved. </p>
                         <ul className='list-unstyled d-flex'>
                             <li className='ms-3'>
-                                <a className='link-light' to='#'><i className='fa fa-instagram fa-2x'/></a>
+                                <NavLink className='link-light' to='https://www.instagram.com/matynzamora/'><i className='fa fa-instagram fa-2x'/></NavLink>
                             </li>
                             <li className='ms-3'>
-                                <a className='link-light' to='#'><i className='fa fa-facebook fa-2x'/></a>
+                                <NavLink className='link-light' to='https://www.facebook.com/matias.zamora.5688/'><i className='fa fa-facebook fa-2x'/></NavLink>
                             </li>
                             <li className='ms-3'>
-                                <a className='link-light' to='#'><i className='fa fa-twitter fa-2x'/></a>
+                                <NavLink className='link-light' to='https://www.linkedin.com/in/matiasnzamora/'><i className='fa fa-linkedin fa-2x'/></NavLink>
+                            </li>
+                            <li className='ms-3'>
+                                <NavLink className='link-light' to='/'><i className='fa fa-whatsapp fa-2x'/></NavLink>
                             </li>
                         </ul>
                     </div>
