@@ -24,9 +24,6 @@ const Footer = () => {
                                 <li className='nav-item mb-2'>
                                     <NavLink to='/about' className='nav-link p-0 text-white'> Nosotros </NavLink>
                                 </li>
-                                <li className='nav-item mb-2'>
-                                    <NavLink to='#' className='nav-link p-0 text-white'> FAQs </NavLink>
-                                </li>
                             </ul>
                         </div>
                         
@@ -34,40 +31,40 @@ const Footer = () => {
                             <h5> Section </h5>
                             <ul className='nav flex-column'>
                                 <li className='nav-item mb-2'>
-                                    <NavLink to='#' className='nav-link p-0 text-white'> Home </NavLink>
+                                    <NavLink to='#' className='nav-link p-0 text-white'> Blog </NavLink>
                                 </li>
                                 <li className='nav-item mb-2'>
-                                    <NavLink to='#' className='nav-link p-0 text-white'> Feactures </NavLink>
+                                    <NavLink to='#' className='nav-link p-0 text-white'> Proyectos </NavLink>
                                 </li>
                                 <li className='nav-item mb-2'>
-                                    <NavLink to='#' className='nav-link p-0 text-white'> About </NavLink>
+                                    <NavLink to='#' className='nav-link p-0 text-white'> Preguntas frecuentes </NavLink>
                                 </li>
                                 <li className='nav-item mb-2'>
-                                    <NavLink to='#' className='nav-link p-0 text-white'> FAQs </NavLink>
+                                    <NavLink to='#' className='nav-link p-0 text-white'> Reseñas </NavLink>
                                 </li>
                             </ul>
                         </div>
 
                         <div className='col-4 offset-1'>
                             <form>
-                                <h5> Subcribe to our newletters </h5>
-                                <p>Monthly digest of whats new and exciting from us.</p>
+                                <h5> Suscribete para mas noticias </h5>
+                                <p> Resive las noticias y novedades .</p>
                                 <div className='d-flex w-100 grap-2'>
-                                    <label htmlFrom='newletter1' className='visually-hidden'> Email Address </label>
+                                    <label htmlFrom='newletter1' className='visually-hidden'> Email </label>
                                     <imput
                                         id='newletter1'
                                         type='text'
                                         className='form-control'
                                         placeholder='Email address'
                                     />
-                                    <button className='btn btn-primary rounded-pill mx-2 px-4' type='button'> Subcribe </button>
+                                    <button className='btn btn-primary rounded-pill mx-2 px-4' type='button'> Suscribite </button>
                                 </div>
                             </form>
                         </div>
                     </div>
 
                     <div className='d-flex justify-content-between pt-4 mt-4 border-top'>
-                        <p> 2022 Company, Inc. all rigths reserved. </p>
+                        <p> Copyright &copy; 2022 Matias N Zamora all rigths reserved. </p>
                         <ul className='list-unstyled d-flex'>
                             <li className='ms-3'>
                                 <NavLink className='link-light' to='https://www.instagram.com/matynzamora/'><i className='fa fa-instagram fa-2x'/></NavLink>
@@ -90,4 +87,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

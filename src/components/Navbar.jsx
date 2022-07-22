@@ -12,27 +12,26 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink className="nav-link active" aria-current="page" to="/"> Home </NavLink>
+                                <NavLink className="nav-link active" aria-current="page" to="/"> Inicio </NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/about"> Nosotros </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/service"> Sercios </NavLink>
+                                <NavLink className="nav-link" to="/service"> Servicios </NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/contact"> Contacto </NavLink>
                             </li>
                         </ul>
 
-                        <NavLink className="navbar-brand fw-bolder fs-2 mx-auto" to="/"> Happy Art </NavLink>
+                        <NavLink className="navbar-brand fw-bolder fs-2 mx-auto" to="/">  Happy Art </NavLink>
 
                         <NavLink to="/login" className='btn btn-outline-primary ms-auto px-4 rounded-pill'>
                             <i className='fa fa-sign-in me-2'/> Inicio de Sesion </NavLink>
                         <NavLink to="/register" className='btn btn-outline-primary ms-2  px-4 rounded-pill'> 
                             <i className='fa fa-user-plus me-2'/> Registro </NavLink>
-                            <NavLink to="/dashboard" className='btn btn-outline-primary ms-2  px-4 rounded-pill'> 
-                            <i className='fa fa-user-plus me-2'/> Dasboard </NavLink>
+
                     </div>
                 </div>
             </nav>
@@ -40,4 +39,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;

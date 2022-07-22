@@ -7,9 +7,9 @@ const Login = () => {
         <div className='container shadow my-5'>
             <div className='row'>
                 <div className='col-md-5 d-flex flex-column align-items-center justify-content-center text-white form'>
-                    <h1 className='display-4 fw-bolder'> Welcome Black </h1>
-                    <p className='lead text-center '> Enter Your Credencials To Login </p>
-                    <h5 className='mb-4'> OR </h5>
+                    <h1 className='display-4 fw-bolder'> Bienvenido </h1>
+                    <p className='lead text-center '> Ingresa tus credenciales para Ingresar </p>
+                    <h5 className='mb-4'> O </h5>
                     <NavLink to='/register' className="btn btn-outline-light rounded-pill pb-2 w-50"> Registrarse </NavLink>
                 </div>
                 <div className='col-md-6 p-5'>
@@ -37,4 +37,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;
